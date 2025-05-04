@@ -1,12 +1,35 @@
-# React + Vite
+# Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Task Manager App** built using **React**, **TailwindCSS**, and **React Router DOM**. The app allows users to manage their tasks efficiently by adding, editing, deleting, and filtering tasks based on their completion status.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+1. **Add Tasks**:
+   - Users can add new tasks to their task list.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Edit Tasks**:
+   - Users can edit existing tasks.
+
+3. **Delete Tasks**:
+   - Users can delete tasks they no longer need.
+
+4. **Mark Tasks as Completed**:
+   - Users can toggle tasks between completed and pending states.
+
+5. **Filter Tasks**:
+   - Users can filter tasks by:
+     - All tasks
+     - Completed tasks
+     - Pending tasks
+
+6. **Persistent Storage**:
+   - Tasks are saved in the browser's `localStorage`, ensuring they persist even after refreshing the page.
+
+7. **Responsive Design**:
+   - The app is fully responsive and works seamlessly on different screen sizes.
+
+---
+
+## Project Structure
