@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Task Manager App
 
 This is a **Task Manager App** built using **React**, **TailwindCSS**, and **React Router DOM**. The app allows users to manage their tasks efficiently by adding, editing, deleting, and filtering tasks based on their completion status.
@@ -137,5 +137,4 @@ This is a **Task Manager App** built using **React**, **TailwindCSS**, and **Rea
 
 ---
 
-## Project Structure
->>>>>>> a466127b035a1dcd79fa01aa14eb3b2113a48ff3
+
